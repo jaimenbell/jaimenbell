@@ -28,4 +28,4 @@ that reports "done" without checking what it touched.
 I run a productized reliability + MCP practice at **[jaimenbell.dev](https://jaimenbell.dev)**.
 No fabricated metrics, no client logos — public, testable code is the proof.
 
-📫 jaimenbell123@gmail.com
+📫 jaime@jaimenbell.dev
