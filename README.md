@@ -9,7 +9,9 @@ that reports "done" without checking what it touched.
 - **[mcp-security-scanner](https://github.com/jaimenbell/mcp-security-scanner)** — static scanner for MCP / agent servers. 7 detector families
   (codegen injection, tool-param injection, auth posture, secret handling, tool-scope creep,
   secret-leak-via-response, destructive job-file hazards). Every finding: severity · file:line
-  · fix · honest confidence. Dogfooded via a self-audit across an 8-server fleet.
+  · fix · honest confidence. Then measured blind against pre-frozen third-party ground truth:
+  **recall 0/69** — so I pulled the paid tier rather than sell it. Full record, including what
+  improved afterward, in the repo's changelog.
 - **Production MCP servers** — auth-scoped tool groups, write access off by default, honest
   capability tables, real test suites. Several are public here 👇
 
